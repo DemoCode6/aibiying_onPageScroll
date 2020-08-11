@@ -1,0 +1,13 @@
+page {height: 1000px;}
+.a {display:flex;position: relative;justify-content: flex-end;z-index: 10;}
+.a view{position: absolute;top: -30rpx; border-radius: 50%;width: 96rpx;height: 96rpx;background-color: #fff;box-shadow:0 0 10rpx 1rpx rgb(224, 223, 223);display: flex;align-items: center;justify-content: center;}
+.a view:nth-child(1) {right: 176rpx;}
+.a view:nth-child(2) {right: 50rpx;}
+
+.b {display: flex;justify-content: flex-end;float: right;position: sticky;top: 250rpx;right: 50rpx;z-index: 10;box-shadow:0 0 10rpx 1rpx rgb(224, 223, 223);border-radius: 50rpx;}
+.b view{width: 106rpx;height: 96rpx;background-color: #fff;display: flex;align-items: center;justify-content: center;}
+.b view:nth-child(1){border-top-left-radius: 50%;border-bottom-left-radius: 50%;}
+.b view:nth-child(2){border-top-right-radius: 50%;border-bottom-right-radius: 50%;}
+
+.zf1 image{width: 32rpx;height: 28rpx;}
+.zf2 image{width: 30rpx;height: 32rpx;}

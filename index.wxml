@@ -1,0 +1,12 @@
+<view style="width:100%;height:300px;background-color: blueviolet;"></view>
+<view class="a" wx:if="{{ btn }}">
+	<view class="zf1"><image bindtap="xinxin" src="{{xinxin ? '/images/zf2.png' : '/images/zf1.png'}}"></image></view>
+	<view class="zf2"><image src="/images/zf3.png"></image></view>
+</view>
+
+<view class="b" wx:if="{{ !btn }}">
+	<view class="zf1"><image bindtap="xinxin" src="{{xinxin ? '/images/zf2.png' : '/images/zf1.png'}}"></image></view>
+	<view class="zf2"><image src="/images/zf3.png"></image></view>
+</view>
+<!-- 新加的收藏和推荐 -->
+<view style="width: 100%;height: 350rpx;background: red;"></view>
